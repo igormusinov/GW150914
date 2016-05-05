@@ -1,8 +1,4 @@
-FROM everware/base:23102015
-MAINTAINER Tim Head <betatim@gmail.com>
+FROM yandex/rep:0.6.5
+MAINTAINER Andrey Ustyuzhanin
 
-USER root
-RUN apt-get -y update && apt-get install -y curl
-
-USER jupyter
-RUN conda install -n py27 --yes numpy==1.9 scipy==0.17.0 matplotlib==1.4 h5py
+RUN conda install -n rep_py2 --dry-run h5py=2.5.0=np19py27_1
