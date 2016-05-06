@@ -11,4 +11,6 @@ The `Dockerfile` contains the dependencies needed as well as a
 jupyter notebook server.
 
 # Everware
-You can run this in [everware](http://everware.xyz) if you have an account for https://everware.rep.school.yandex.net.
+Everware can create environment for this repository to run:
+[![run at everware](https://img.shields.io/badge/run%20me-@everware-blue.svg?style=flat)](https://everware.rep.school.yandex.net/hub/oauth_login?repourl=https://github.com/anaderi/GW150914.git)
+
