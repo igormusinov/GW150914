@@ -1,4 +1,4 @@
-FROM yandex/rep:0.6.5
+FROM yandex/rep:0.6.4
 MAINTAINER Andrey Ustyuzhanin
 
 RUN bash --login -c "conda create --yes -n snake python=3 snakemake -c bioconda"

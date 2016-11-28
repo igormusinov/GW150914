@@ -2,6 +2,5 @@ rule execute:
     input:
         "GW150914_tutorial.ipynb"
     output:        
-        "GW150914_tutorial.html"
     shell:
         "source activate rep_py2; jupyter nbconvert --to html --ExecutePreprocessor.timeout=-1 --execute GW150914_tutorial.ipynb"

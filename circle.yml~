@@ -15,4 +15,4 @@ dependencies:
 
 test:
   override:
-    - docker run -ti --rm  -v `pwd`:/notebooks mystudy bash --login -c "cd /notebooks/; source activate snake; snakemake"
+    - docker run -ti --rm  -v `pwd`:/notebooks mystudy bash --login -c "cd /notebooks/; snakemake"
